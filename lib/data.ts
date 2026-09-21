@@ -8,38 +8,32 @@ export const services: Service[] = [
   {
     title: "Weddings",
     desc: "Full décor, styling and coordination for your ceremony and reception, from backdrop to last table setting.",
-    image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789290374/WhatsApp_Image_2026-09-10_at_22.13.51_hild39.jpg",
   },
   {
     title: "Birthdays",
     desc: "Themed setups and balloon design that turn any milestone into a celebration worth remembering.",
-    image:
-      "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789290140/WhatsApp_Image_2026-09-10_at_22.13.50_2_wtxaoi.jpg",
   },
   {
     title: "Corporate Events",
     desc: "Branded staging, seating and lighting for launches, conferences and end-of-year functions.",
-    image:
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789290392/WhatsApp_Image_2026-09-10_at_22.13.51_2_dylj72.jpg",
   },
   {
     title: "Graduations",
     desc: "Photo-ready backdrops and table styling to mark the achievement in style.",
-    image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789289969/WhatsApp_Image_2026-09-10_at_22.13.48_1_dyhiw2.jpg",
   },
   {
     title: "Traditional Ceremonies",
     desc: "Décor rooted in culture and colour, tailored to the customs of your ceremony.",
-    image:
-      "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789289632/WhatsApp_Image_2026-09-10_at_22.13.45_apejct.jpg",
   },
   {
     title: "Baby Showers",
     desc: "Soft, elegant setups with balloon arches and centerpieces for a gentle celebration.",
-    image:
-      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80",
+    image: "https://res.cloudinary.com/hts8vnok/image/upload/v1789289262/WhatsApp_Image_2026-09-10_at_22.13.43_d4iuee.jpg",
   },
 ];
 
@@ -87,15 +81,15 @@ export const packages: Package[] = [
 ];
 
 export const gallery: string[] = [
-  "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1470753323753-3f8091bb0230?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1478146059778-26028b07395a?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789306851/WhatsApp_Image_2026-09-10_at_22.09.00_wtnny3.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789290118/WhatsApp_Image_2026-09-10_at_22.13.50_1_tuzzcx.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789290041/WhatsApp_Image_2026-09-10_at_22.13.49_2_ivilnh.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789289943/WhatsApp_Image_2026-09-10_at_22.13.47_3_pwhbna.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789289782/WhatsApp_Image_2026-09-10_at_22.13.47_siofpc.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789289632/WhatsApp_Image_2026-09-10_at_22.13.45_apejct.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789289210/WhatsApp_Image_2026-09-10_at_22.13.42_pgqtdt.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789307414/WhatsApp_Image_2026-09-13_at_12.37.56_jt3qq7.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1789290414/WhatsApp_Image_2026-09-10_at_22.13.52_v21p6o.jpg",
 ];
 
 export type RentalCategory =
