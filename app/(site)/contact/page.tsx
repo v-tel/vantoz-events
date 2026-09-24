@@ -24,8 +24,8 @@ export default function ContactPage() {
               <Phone className="mt-1 text-[#a77a2d]" size={20} />
               <div>
                 <p className="text-sm font-semibold">Call or WhatsApp</p>
-                <a href="tel:+254700000000" className="text-sm text-black/55">
-                  +254 700 000 000
+                <a href="tel:+254707431821" className="text-sm text-black/55">
+                  +254 707 432 821
                 </a>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function ContactPage() {
               </div>
             </div>
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254707431821"
               className="inline-flex items-center rounded-full border border-black/15 px-6 py-4 text-sm font-semibold hover:bg-black hover:text-white"
             >
               <MessageCircle className="mr-2" size={16} />

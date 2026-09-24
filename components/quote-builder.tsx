@@ -114,7 +114,7 @@ export function QuoteBuilder() {
           details and get back to you within 24 hours with a tailored quote.
         </p>
         <a
-          href="https://wa.me/254700000000"
+          href="https://wa.me/254707431821"
           className="mt-7 inline-flex items-center rounded-full bg-[#d8ad62] px-6 py-4 text-sm font-bold text-black"
         >
           Message us on WhatsApp for a faster reply
