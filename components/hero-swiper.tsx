@@ -28,14 +28,16 @@ export function HeroSwiper({ images }: { images: string[] }) {
             alt="Vantoz event décor"
             fill
             priority={i === 0}
+            sizes="100vw"
+            quality={90}
             className="object-cover"
           />
         </div>
       ))}
 
-      {/* Just enough of a scrim on the left for text to stay legible —
-          the image itself stays clear, not washed out. */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/25 to-transparent" />
+      {/* Lighter scrim, left side only — just enough for button/eyebrow
+          legibility now that the big H1 is gone. Image stays clear. */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/15 to-transparent" />
 
       {images.length > 1 && (
         <div className="absolute right-6 top-1/2 z-10 hidden -translate-y-1/2 flex-col gap-2.5 md:flex">

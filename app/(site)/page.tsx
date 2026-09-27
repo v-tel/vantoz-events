@@ -10,12 +10,11 @@ import { CloudinaryImage } from "@/components/cloudinary-image";
 export default function Home() {
   return (
     <main>
-      {<section className="relative min-h-[760px] overflow-hidden bg-black text-white">
+      {<section className="relative min-h-[520px] overflow-hidden bg-black text-white sm:min-h-[620px] lg:min-h-[760px]">
   <HeroSwiper images={heroImages} />
-  <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-end px-5 pb-28 pt-36 lg:px-8">
+  <div className="relative mx-auto flex min-h-[520px] max-w-7xl items-end px-5 pb-24 pt-28 sm:min-h-[620px] sm:pb-28 sm:pt-32 lg:min-h-[760px] lg:px-8 lg:pt-36">
     <div className="max-w-3xl">
       <p className="mb-5 text-xs font-bold uppercase tracking-[.35em] text-[#d8ad62]">Dream · Plan · Celebrate</p>
-      <h1 className="serif text-6xl leading-[.92] md:text-8xl">Make Your Event <em>Unforgettable</em></h1>
       <p className="mt-7 max-w-xl text-base leading-7 text-white/75">Premium décor, planning and rentals designed around your vision — from intimate gatherings to grand celebrations.</p>
       <div className="mt-8 flex flex-wrap gap-3">
         <Link href="/quote" className="rounded-full bg-[#d8ad62] px-6 py-4 text-sm font-bold text-black">Get a Quote <ArrowRight className="ml-2 inline" size={15}/></Link>
@@ -23,7 +22,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-  <div className="absolute bottom-0 inset-x-0 border-t border-white/10 bg-black/35 backdrop-blur-md">
+  <div className="absolute bottom-0 inset-x-0 border-t border-white/10 bg-black/70">
     <div className="mx-auto grid max-w-7xl grid-cols-2 gap-5 px-5 py-6 md:grid-cols-4 lg:px-8">
       <div><Sparkles className="text-[#d8ad62]" size={20}/><p className="mt-2 text-sm font-semibold">Premium Décor</p><p className="text-xs text-white/55">Elegant, stylish designs</p></div>
       <div><UsersRound className="text-[#d8ad62]" size={20}/><p className="mt-2 text-sm font-semibold">Professional Team</p><p className="text-xs text-white/55">Experienced & reliable</p></div>
