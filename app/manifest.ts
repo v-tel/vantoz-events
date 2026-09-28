@@ -1,25 +1,24 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Vantoz Events',
-    short_name: 'Vantoz',
-    description: 'Event rentals, packages, and services',
-    start_url: '/',
-    display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#317EFB',
+    name: "Vantoz Events",
+    short_name: "Vantoz",
+    description:
+      "Premium event décor, planning and rentals for unforgettable celebrations.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#0d0d0d",
+    theme_color: "#d8ad62",
     icons: [
+      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
       {
-        src: '/icons/icon-192x192.png',
-        sizes: '192x192',
-        type: 'image/png',
-      },
-      {
-        src: '/icons/icon-512x512.png',
-        sizes: '512x512',
-        type: 'image/png',
+        src: "/icons/icon-512-maskable.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
       },
     ],
-  }
+  };
 }
