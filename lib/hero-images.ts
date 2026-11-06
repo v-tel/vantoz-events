@@ -15,7 +15,7 @@
  */
 export const heroImages: string[] = [
   "https://res.cloudinary.com/hts8vnok/image/upload/v1789306851/WhatsApp_Image_2026-09-10_at_22.09.00_wtnny3.jpg",
-  "https://res.cloudinary.com/hts8vnok/image/upload/v1789290374/WhatsApp_Image_2026-09-10_at_22.13.51_hild39.jpg",
+  "https://res.cloudinary.com/hts8vnok/image/upload/v1793687393/Gemini_Generated_Image_kaqr6zkaqr6zkaqr_oueifp.jpg",
   "https://res.cloudinary.com/hts8vnok/image/upload/v1789307405/WhatsApp_Image_2026-09-13_at_12.36.25_fbcvmk.jpg",
   "https://res.cloudinary.com/hts8vnok/image/upload/v1789307414/WhatsApp_Image_2026-09-13_at_12.37.56_jt3qq7.jpg"
 ];
